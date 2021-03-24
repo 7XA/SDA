@@ -12,6 +12,8 @@ public class Main {
         System.out.println("Introduceti al doilea numar: ");
         nr2 = stdin.nextInt();
 
+        System.out.println("Minimul numerelor este: " + Math.min(nr1, nr2));
+        System.out.println("Maximul numerelor este: " + Math.max(nr1, nr2));
         System.out.println("Suma numerelor este: " + (nr1 + nr2));
         System.out.println("Diferenta numerelor este: " + (nr1 - nr2));
         System.out.println("Produsul celor doua numere este: " + (nr1 * nr2));
